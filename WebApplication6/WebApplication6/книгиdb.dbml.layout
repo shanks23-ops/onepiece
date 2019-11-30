@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="книгиdb">
+  <DataContextMoniker Name="/книгиdbDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a9fc7af3-c12a-4d45-ab73-ed8b835df0f5" absoluteBounds="2.25, 2.25, 2, 1.9631982421875">
+      <DataClassMoniker Name="/книгиdbDataContext/книги" />
+      <nestedChildShapes>
+        <elementListCompartment Id="33f21683-9cdb-4e2a-bf95-27a03a524091" absoluteBounds="2.265, 2.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

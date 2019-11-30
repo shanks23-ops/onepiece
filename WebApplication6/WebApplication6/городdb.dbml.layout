@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="городdb">
+  <DataContextMoniker Name="/городdbDataContext" />
+  <nestedChildShapes>
+    <classShape Id="6bab9041-816d-486d-923e-6e7f80302f34" absoluteBounds="2.25, 1.875, 2, 1.3862939453125">
+      <DataClassMoniker Name="/городdbDataContext/город" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bee8f69c-3c0f-4ded-812b-cce019fc554f" absoluteBounds="2.265, 2.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

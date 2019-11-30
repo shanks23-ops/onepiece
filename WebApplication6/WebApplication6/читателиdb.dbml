@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="сеть_библиотек" Class="читателиdbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=USER-ПК\sqlexpress;Initial Catalog=сеть_библиотек;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="сеть_библиотекConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.читатели" Member="читатели">
+    <Type Name="читатели">
+      <Column Name="id_читательский_билет" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ФИО" Type="System.String" DbType="NChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="адрес" Type="System.String" DbType="NChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="телефон" Type="System.String" DbType="NChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="код_города" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="фото" Type="System.String" DbType="NChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

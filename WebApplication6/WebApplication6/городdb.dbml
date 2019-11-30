@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="сеть_библиотек" Class="городdbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=USER-ПК\sqlexpress;Initial Catalog=сеть_библиотек;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="сеть_библиотекConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.город" Member="город">
+    <Type Name="город">
+      <Column Name="id_город" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="город" Member="город1" Type="System.String" DbType="NChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="страна" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
